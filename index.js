@@ -39,6 +39,14 @@ client.on("messageCreate", async (message) => {
   if (message.content === "Mlbal" && message.author.id === oa) {
     message.channel.send("<@716390085896962058> bal");
   }
+
+  if (message.content === "Mlsh" && message.author.id === oa) {
+    message.channel.send("<@716390085896962058> p --sh");
+  }
+  
+  if (message.content === "Mlp" && message.author.id === oa) {
+    message.channel.send("<@716390085896962058> p");
+  }
 });
 
 //------------------------------------------------------------//
