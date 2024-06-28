@@ -1,7 +1,6 @@
 {
-  "name": "say this",
+  "name": "say-this",
   "version": "1.0.0",
-  "description": "",
   "scripts": {
     "start": "nodemon index.js"
   },
