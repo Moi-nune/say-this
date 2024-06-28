@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
     success: "true",
   });
 });
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 8000);
 
 //--------------------------------------------------------------//
 //-set-rich-presence-&-ready-handler-//
